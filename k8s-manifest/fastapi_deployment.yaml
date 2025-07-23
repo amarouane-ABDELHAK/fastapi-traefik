@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: fastapi
-          image: quay.io/amarouane/fastapi:v1.0.4
+          image: quay.io/amarouane/fastapi:v1.0.5
           imagePullPolicy: Always
           ports:
             - containerPort: 8000

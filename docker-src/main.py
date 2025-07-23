@@ -76,4 +76,4 @@ api_app.include_router(router)
 
 
 # Mount the sub-application
-app.mount("/api/v1", api_app)
+app.mount("/animal/v1", api_app)
